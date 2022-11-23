@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
             DispatchQueue.main.async {
                 if let data = data {
-                    label.text = String(decoding: data, as: UTF8.self)
+                   // label.text = String(decoding: data, as: UTF8.self)
                 } else {
                     label.text = error?.localizedDescription
                 }
